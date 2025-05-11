@@ -1,0 +1,13 @@
+# For interfacing with OpenAI using LangChain
+langchain>=0.0.142
+langchain-openai>=0.0.10
+
+# For creating our agent-based workflow (assuming LangGraph is available on PyPI)
+langgraph>=0.1.0
+
+# For sentiment analysis
+textblob>=0.17.1
+
+# For loading environment variables from a .env file
+python-dotenv>=0.20.0
+streamlit
